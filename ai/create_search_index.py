@@ -24,6 +24,7 @@ search_connection = project.connections.get_default(
     connection_type=ConnectionType.AZURE_AI_SEARCH, include_credentials=True
 )
 
+
 # Create a search index client using the search connection
 # This client will be used to create and delete search indexes
 index_client = SearchIndexClient(
